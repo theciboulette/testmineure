@@ -6,12 +6,13 @@ values, target = load_wine(return_X_y=True)
 target_names = load_wine().target_names
 feature_names = load_wine().feature_names
 
-st.title('Bonjour l'alcoolique !')
+st.title("Bonjour l'alcoolique !'")
 
 df = pd.DataFrame(values, columns=feature_names)
 df
 plot=df["alcohol"]
-st.line_chart(xxx)
+st.write("regarde ce char")
+st.line_chart(plot)
 
 
 
